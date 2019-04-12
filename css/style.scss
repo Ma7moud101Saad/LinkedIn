@@ -128,7 +128,7 @@ color: #B2D4E4;}
   background: none;
   border: 1px solid #C7C8C9;
   border-radius: 1px !important;}
-form .btn-primary:hover {
+  .btn.btn-primary#bbtn:hover {
   background: none !important;
   color: #fff !important;
   border: 2px solid #fff;
@@ -160,9 +160,7 @@ font-size: 14px;}
   .password{
     margin-bottom: 10px;
    }
-   .formFooter .form-inline .form-group label {
-    display: none;
- }
+  
  .links {
   margin-left: 0;}
   .formFooter {
@@ -180,9 +178,7 @@ font-size: 14px;}
 }
 .links {
   margin-left: 0;}
-  .formFooter .form-inline .form-group label {
-    display: none;
- }
+
   }
 
 // Medium devices (tablets, 768px and up)
@@ -208,9 +204,7 @@ font-size: 14px;}
 
 .links {
   margin-left: 0;}
-  .formFooter .form-inline .form-group label {
-   display: none;
-}
+
 
  }
 

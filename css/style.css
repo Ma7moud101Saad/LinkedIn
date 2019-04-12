@@ -135,7 +135,7 @@ form.signForm .btn-primary:hover {
   border: 1px solid #C7C8C9;
   border-radius: 1px !important; }
 
-form .btn-primary:hover {
+.btn.btn-primary#bbtn:hover {
   background: none !important;
   color: #fff !important;
   border: 2px solid #fff;
@@ -176,9 +176,6 @@ form .btn-primary:hover {
   .password {
     margin-bottom: 10px; }
 
-  .formFooter .form-inline .form-group label {
-    display: none; }
-
   .links {
     margin-left: 0; }
 
@@ -192,10 +189,7 @@ form .btn-primary:hover {
     margin-left: 0%; }
 
   .links {
-    margin-left: 0; }
-
-  .formFooter .form-inline .form-group label {
-    display: none; } }
+    margin-left: 0; } }
 @media (min-width: 768px) {
   .btn {
     margin-right: .5%; }
@@ -214,10 +208,7 @@ form .btn-primary:hover {
     margin-left: 0%; }
 
   .links {
-    margin-left: 0; }
-
-  .formFooter .form-inline .form-group label {
-    display: none; } }
+    margin-left: 0; } }
 @media (min-width: 992px) {
   .email {
     margin-bottom: 0; }
