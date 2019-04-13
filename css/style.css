@@ -93,11 +93,11 @@ form a:hover {
   border-radius: 0;
   margin-bottom: 2%; }
 
-form.signForm .btn-primary {
+form .signForm .btn-primary {
   width: 100% !important;
   background-color: #0073B1 !important; }
 
-form.signForm .btn-primary:hover {
+form .signForm .btn-primary:hover {
   background-color: #0168A0 !important;
   color: #fff !important; }
 
@@ -128,14 +128,14 @@ form.signForm .btn-primary:hover {
   height: 33px;
   margin-right: 0% !important; }
 
-.btn.btn-primary#bbtn {
+.btn .btn-primary #bbtn {
   width: 85px;
   height: 33px;
   background: none;
   border: 1px solid #C7C8C9;
   border-radius: 1px !important; }
 
-.btn.btn-primary#bbtn:hover {
+.btn .btn-primary #bbtn:hover {
   background: none !important;
   color: #fff !important;
   border: 2px solid #fff;

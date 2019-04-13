@@ -28,7 +28,8 @@ body{
     border-radius: 0 !important;
     background-color: #f3f6f8 !important;
  }
- nav .btn{
+ nav {
+  .btn{
     border: none !important;
      border: 1px solid #fff !important;
       background-color: #283e4a !important;
@@ -36,17 +37,21 @@ body{
    line-height: 1.25rem;
    width: 88px;
   }
+  }
 
   .btn:hover{color:#000000;
   background-color: #fff !important;}
 
-  form a{text-decoration: none;
+  form {
+    a{text-decoration: none;
   color: #fff;
-font-size: .8rem;}
-form a:hover {
+font-size: .8rem;}}
+form  {
+  a:hover{
   color: #fff;
   font-weight: bold;
   text-decoration: underline;
+}
 }
 .email:focus{
   background-color: #fff !important;
@@ -91,19 +96,20 @@ text-align: center;
 .form-group {
   margin-bottom: .2rem;
 }
-.form-group label {
-
+.form-group {
+  label {
   margin-bottom: 0.1rem !important;
-}
-.form-group input{height: 30px;
+}}
+.form-group {
+  input{height: 30px;
   border-radius: 0;
-margin-bottom: 2%;}
+margin-bottom: 2%;}}
 
-form.signForm .btn-primary{width: 100% !important;
-background-color: #0073B1 !important;}
+form{.signForm {.btn-primary{width: 100% !important;
+background-color: #0073B1 !important;}}}
 
-form.signForm .btn-primary:hover{background-color:  #0168A0 !important;
-color: #fff !important;}
+form{.signForm {.btn-primary:hover{background-color:  #0168A0 !important;
+color: #fff !important;}}}
 
 .footer{width: 100%; min-height:209px ; background-color:#44474A;
 padding-top: 25px;}
@@ -114,26 +120,39 @@ font-weight: bold;
 color: #B2D4E4;}
 .general:hover{font-weight: bold;}
 .general:last-child{border-right: none;}
-.formFooter .form-inline  .form-group label {
+.formFooter {
+  .form-inline { .form-group label {
  font-size: 14px;
   color: #fff;
 }
-.formFooter .form-inline .form-inline .form-control {
+}
+}
+.formFooter  {
+  .form-inline {
+    .form-inline {.form-control{
   height: 33px;
   margin-right: 0% !important;
 }
+}
+}
+}
 
-.btn.btn-primary#bbtn{width: 85px;
+.btn{.btn-primary{
+  #bbtn{width: 85px;
   height: 33px;
   background: none;
   border: 1px solid #C7C8C9;
-  border-radius: 1px !important;}
-  .btn.btn-primary#bbtn:hover {
+  border-radius: 1px !important;}}}
+
+  .btn {
+    .btn-primary{#bbtn:hover{
   background: none !important;
   color: #fff !important;
   border: 2px solid #fff;
   
   opacity: 2 !important;
+}
+}
 }
 .formFooter {
   margin-left: 17%;
@@ -193,9 +212,15 @@ font-size: 14px;}
     margin-bottom: 0;
    }
  
-.formFooter .form-inline .form-inline .form-control {
+.formFooter {
+  .form-inline  {
+    .form-inline {
+      .form-control{
   width: 100%;
   margin-right: 0% !important;
+}
+}
+}
 }
 
 .formFooter {
@@ -217,8 +242,10 @@ font-size: 14px;}
   .password{
     margin-bottom: 0;
    }
-  .navbar-light .navbar-brand {
+  .navbar-light {
+    .navbar-brand {
   margin-right: 20%;
+}
   } 
   .my-lg-0 {
     margin-bottom: 0!important;
@@ -236,10 +263,15 @@ font-size: 14px;}
 
 .links {
   margin-left: 0;}
-  .formFooter .form-inline .form-group label {
+  .formFooter  {
+    .form-inline {
+      .form-group {label{
     font-size: 14px;
     color: #fff;
     width: 31rem;
+  }
+      }
+  }
 }
  
 }
@@ -251,8 +283,9 @@ font-size: 14px;}
     margin-bottom: 0!important;
     width: 100%;
   }
-  .navbar-light .navbar-brand {
+  .navbar-light  {.navbar-brand{
     margin-right: 35%;
+  }
     } 
    .email{
      
@@ -292,10 +325,16 @@ line-height: 139%;}
 
 .links {
   margin-left: 25%;}
-  .formFooter .form-inline .form-group label {
+  .formFooter {
+    .form-inline  {
+      .form-group {
+        label{
     font-size: 14px;
     color: #fff;
     width: 100%;
+  }
+  }
+  }
 }
 .formFooter{display: block;}
 }
